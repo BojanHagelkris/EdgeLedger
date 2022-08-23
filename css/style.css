@@ -298,3 +298,14 @@ img {
     margin-top: -30px;
   }
 }
+@media (max-height: 399px) {
+  .navbar {
+    height: 100px;
+  }
+  .hero {
+    height: 500px;
+  }
+  .hero .content {
+    margin-top: -30px;
+  }
+}
