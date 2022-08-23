@@ -58,6 +58,7 @@ img {
   color: #fff;
   padding: 10px 20px;
   margin: 0 10px;
+  animation: navbar 1.3s forwards ease-in;
 }
 .navbar a:hover{ 
   border-bottom: #28a745 2px solid;
@@ -188,6 +189,10 @@ img {
 }
 
 /* KEYFRAME */
+@keyframes navbar {
+  0% {opacity: 0; }
+  100% {opacity: 1; }
+}
 @keyframes anime1 {
   0%  {opacity: 0;}
   80% {transform: translate(10px);}
